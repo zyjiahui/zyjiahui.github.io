@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>my first blog | Hexo</title>
+  <title>my second blog | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="第一章内容  第二章内容  参考文献www zyjiahui.cn">
+  <meta name="description" content="hexo个人博客搭建和部署 准备  node.js安装  node.js下载  安装cnpm淘宝镜像(速度相比cpm较快) npm install -g cnpm –registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org    安装hexo  安装hexo cnpm install -g hexo-cli  验证（包含一些所用脚本的版本号） hexo -v    搭建">
 <meta property="og:type" content="article">
-<meta property="og:title" content="my first blog">
-<meta property="og:url" content="http://yoursite.com/2020/07/03/my-first-blog/index.html">
+<meta property="og:title" content="my second blog">
+<meta property="og:url" content="http://yoursite.com/2020/07/03/my-second-blog/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="第一章内容  第二章内容  参考文献www zyjiahui.cn">
+<meta property="og:description" content="hexo个人博客搭建和部署 准备  node.js安装  node.js下载  安装cnpm淘宝镜像(速度相比cpm较快) npm install -g cnpm –registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org    安装hexo  安装hexo cnpm install -g hexo-cli  验证（包含一些所用脚本的版本号） hexo -v    搭建">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-07-03T00:12:12.000Z">
-<meta property="article:modified_time" content="2020-07-03T00:20:32.432Z">
+<meta property="article:published_time" content="2020-07-03T01:30:45.000Z">
+<meta property="article:modified_time" content="2020-07-03T02:39:12.857Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -154,31 +154,99 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-my-first-blog" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-my-second-blog" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      my first blog
+      my second blog
     </h1>
   
 
         
-        <a href="/2020/07/03/my-first-blog/" class="archive-article-date">
-  	<time datetime="2020-07-03T00:12:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-03</time>
+        <a href="/2020/07/03/my-second-blog/" class="archive-article-date">
+  	<time datetime="2020-07-03T01:30:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-03</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p>
-<hr>
-<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>内容</p>
-<hr>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>www zyjiahui.cn</p>
+        <h4 id="hexo个人博客搭建和部署"><a href="#hexo个人博客搭建和部署" class="headerlink" title="hexo个人博客搭建和部署"></a>hexo个人博客搭建和部署</h4><ul>
+<li><p>准备</p>
+<ol>
+<li><p>node.js安装  <a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js下载</a></p>
+</li>
+<li><p>安装cnpm淘宝镜像(速度相比cpm较快)</p>
+<p>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
+</li>
+</ol>
+</li>
+<li><p>安装hexo</p>
+<ol>
+<li><p>安装hexo</p>
+<p>cnpm install -g hexo-cli</p>
+</li>
+<li><p>验证（包含一些所用脚本的版本号）</p>
+<p>hexo -v</p>
+</li>
+</ol>
+</li>
+<li><p>搭建</p>
+<ol>
+<li><p>创建一个目录（自定位置）</p>
+<p>mkdir blog</p>
+</li>
+<li><p>进入创建的目录下</p>
+<p>cd blog/</p>
+</li>
+<li><p>初始化博客</p>
+<p>hexo init</p>
+</li>
+<li><p>查看生成博客中的文件</p>
+<p>dir</p>
+</li>
+<li><p>启动博客（显示一个本地的localhost端口4000）</p>
+<p>hexo s   或者 hexo server</p>
+</li>
+<li><p>访问端口</p>
+</li>
+<li><p>添加一篇新博客文章</p>
+<p>hexo n “我的第一篇博客”</p>
+</li>
+<li><p>新的博客目录是在 source/_posts中</p>
+</li>
+<li><p>生成文章</p>
+<p>hexo g     （generate的缩写）</p>
+</li>
+<li><p>重新启动生成文章</p>
+</li>
+</ol>
+</li>
+</ul>
+<ul>
+<li><p>部署到GitHub上</p>
+<ol>
+<li><p>新建仓库</p>
+<p>打开GitHub新建仓库，仓库名字必须是       github昵称.github.io</p>
+</li>
+<li><p>返回命令行安装git部署插件（在文件夹根目录下）</p>
+<p>cnpm install –save hexo-deployer-git</p>
+</li>
+<li><p>打开_config.yml文件（可以在文件夹中用记事本打开）</p>
+<p>修改文件最底部的deploy内容：</p>
+<p>type: ‘git’</p>
+<p>repo: 部署到github的网址</p>
+<p>branch: master</p>
+</li>
+<li><p>部署</p>
+<p>hexo d</p>
+</li>
+</ol>
+</li>
+</ul>
 
       
 
@@ -258,7 +326,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/07/03/my-first-blog/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/07/03/my-second-blog/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -272,18 +340,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2020/07/03/my-second-blog/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/07/03/%E6%B5%8B%E8%AF%95%E9%83%A8%E7%BD%B2/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          my second blog
+          测试部署
         
       </div>
     </a>
   
   
-    <a href="/2020/07/03/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2020/07/03/my-first-blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">my first blog</div>
       <i class="icon-circle-right"></i>
     </a>
   
